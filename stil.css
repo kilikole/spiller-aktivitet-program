@@ -1,0 +1,105 @@
+ul { 
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    float: left;
+    width: 9em;
+    text-decoration: none;
+    color: white;
+    background-color: 
+#FF6600;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+}
+
+#submit {
+    background-color: 
+#FF6600;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius:1px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+
+
+#submit:hover {
+    border: none;
+    background:red;
+    box-shadow: 0px 0px 1px #777;
+}
+
+p {
+    margin: 100px 50px;
+}
+
+
+a:hover {
+    background-color: red;
+}
+
+a:active {
+    background-color: red;
+}
+
+a:target {
+    background-color: red;
+}
+
+li {
+    display: inline;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: #b0e0e6;
+}
+
+/*
+  Hide radio button (the round disc)
+  we will use just the label to create pushbutton effect
+
+input[type=radio] {
+    display:none; 
+    margin:10px;
+}
+ 
+
+  Change the look'n'feel of labels (which are adjacent to radiobuttons).
+  Add some margin, padding to label
+
+input[type=radio] + label {
+    display:inline-block;
+    margin:-2px;
+    padding: 4px 12px;
+    background-color: #e7e7e7;
+    border-color: #ddd;
+}
+
+ Change background color for label next to checked radio button
+ to make it look like highlighted button
+
+input[type=radio]:checked + label { 
+   background-image: none;
+    background-color:#d0d0d0;
+}
+
+*/
+
+#wrapper { width: 1000px; margin: 0 auto; }
+
+body {
+	
+    font-size: 20px;
+}
